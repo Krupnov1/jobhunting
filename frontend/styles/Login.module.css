@@ -1,0 +1,154 @@
+/*component login*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    background-color: rgba(126, 136, 144, 0.7);
+    overflow-y: auto; 
+}
+
+.show {
+    display: block;
+    padding-right: 17px; 
+}
+
+.fade:not(.show) {
+    opacity: 0;
+}
+
+.modal_dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+    position: relative;
+}
+
+.btn_reset {
+    cursor: pointer;
+    border: 0;
+    max-width: 32px;
+    min-width: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 20px;
+    top: 20px;
+    background: #eee;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+    z-index: 800;
+    position: absolute;
+}
+
+.btn_reset:hover {
+    background-color: #081828;
+    color: #fff;
+}
+
+.login_modal_main {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.heading, .heading_form {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 12px;
+}
+
+.heading h3 {
+    color: #081828;
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    line-height: 32px;
+}
+
+.form_group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #081828;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form_control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #eee;
+    padding: 0px 30px;
+    color: #081828;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.d_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+}
+
+.form_check_input {
+    float: left;
+    margin-left: -1.5em;
+    border-radius: 0.25em
+}
+
+.a_pass {
+    display: inline-block;
+    color: #29aafe;
+}
+
+.btn_form {
+    width: 100%;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 30px;
+    background-color: #29aafe;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.text_form {
+    color: #081828;
+    font-size: 15px;
+    text-align: center
+}
+
+/*component option*/
+.label_option {
+    font-size: 20px;
+    font-weight: 700;
+    color: #081828;
+    display: block;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,135 @@
+/*component content*/
+.container {
+    --bs-gutter-x: 1.5rem;
+    max-width: 1320px;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px 100px 10px 100px;
+}
+
+.txt {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: block;
+}
+  
+.content_form {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.app_reg {
+    border: 1px solid #e2e4ea;
+    border-radius: 5px;
+    background: #29aafe;
+    width: 100%;
+}
+  
+.app_link {
+    display: block;
+    padding: 12px 28px;
+}
+      
+.app_span {
+    line-height: 1.4;
+    font-size: 25px;
+    height: 60px;
+    color: #e2e4ea;
+}
+
+/*component forma*/
+.app_with {
+    width: 800px;
+}
+
+.app_form {
+    height: 45px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.app_input {
+    height: inherit;
+    border: none;
+    outline: none;
+    min-width: 600px;
+    padding-left: 13px;
+}
+
+.app_button {
+    min-width: 183px;
+    height: inherit;
+    border: none;
+    background-color: #29aafe;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.35px;
+}
+
+.app_link_span {
+    color: #29aafe;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+/*pages applicant user/resumeForma*/
+.user_resume {
+    --bs-gutter-x: 1.5rem;
+    max-width: 1320px;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin: 20px auto;
+}
+
+.user_resume_main {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px;
+    border: 1px solid rgb(228, 230, 232);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.user_resume_span {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: block;    
+}
+
+.user_resume_label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #081828;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.form_control {
+    border: 1px solid #eee;
+    padding: 10px 30px;
+    color: #081828;
+    border: 1px solid rgb(228, 230, 232);
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form_group {
+    margin-top: 30px;
+    width: 25%;
+}

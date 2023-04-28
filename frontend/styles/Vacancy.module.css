@@ -1,0 +1,137 @@
+/*vacancy_category_[id]*/
+.category_heading {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.container {
+    --bs-gutter-x: 1.5rem;
+    max-width: 1320px;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin: 0 auto;
+}
+
+.item {
+    border-radius: 4px;
+    box-shadow: 0 2px 12px #edeff0;
+    padding: 15px;
+    justify-content: normal;
+    border: 1px solid transparent;
+    position: relative;
+    margin-bottom: 16px;
+    display: flex;
+    transition: height 1s ease-in,padding-bottom .1s,padding-top .1s;
+}
+
+.vacancy_item {
+    position: relative;
+    width: 100%;
+}
+
+.block_item {
+    margin: 0 0 7px 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.item_title {
+    color:#29aafe;
+    text-decoration: none;
+    border: 0;
+    background: transparent;
+    font-size: inherit;
+    outline: none;
+}
+
+.vacancy_company {
+    display: flex;
+    margin-top: 10px;
+}
+
+.vacancy_company_info,
+.vacancy_company_desc {
+    width: 100%;
+    overflow: hidden;
+    padding: 4px;
+    margin: -4px;
+}
+
+.vacancy_company_a {
+    display: inline;
+}
+
+.vacancy_town,
+.vacancy_company_item,
+.vacancy_req {
+    margin-top: 5px;
+}
+
+.vacancy_action {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.vacancy_link {
+    height: 32px;
+    padding: 0 12px;
+    font-family: inherit;
+    line-height: 30px;
+    color: #edeff0;
+    background-color: #29aafe;
+    border-radius: 4px;
+}
+
+.vacancy_button {
+    background-color: #edeff0; 
+    color: #29aafe;
+    border-color: #29aafe;
+    height: 32px;
+    padding: 0 12px;
+    font-family: inherit;
+    line-height: 30px;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+
+.vacancy_button_span {
+    display: none;
+}
+
+
+/*vacancy_[id]*/
+.load_p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.block_wrapper {
+    box-shadow: 0 2px 12px 0 rgb(48 50 51 / 10%);
+    border-radius: 4px;
+    padding: 28px;
+}
+
+.block_span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.block_action {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_desc {
+    margin-top: 35px;
+}
+
+/*resume*/
+.resume_span {
+    display: block;
+}
