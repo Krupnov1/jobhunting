@@ -1,1 +1,1 @@
-# jobhunting
+# jobhunting (MVP)
